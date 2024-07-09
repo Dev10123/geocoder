@@ -66,7 +66,7 @@ app.listen(port, function () {
         admin3And4: true,
         alternateNames: true,
       },
-      countries: [],
+      countries: ['US'],
     },
     function () {
       console.log('Geocoder initialized and ready.');
